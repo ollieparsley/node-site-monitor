@@ -1,0 +1,39 @@
+{
+	"storage": {
+		"type": "file",
+		"path": "/tmp/node-site-monitor"
+	},
+	"users": [
+		{		
+			"username":"ollie",
+			"contact_methods":[
+				{
+					"type":"email",
+					"allow_times": [
+						{
+							"start": "00:00",
+							"end": "23:59"
+						}
+					],
+					"address": "ollie@ollieparsley.com"	
+				}
+			]
+		}
+	],
+	"sites": [
+		{
+			"type": "http",
+			"name": "FootyTweets",
+			"url": "http://google.com",
+			"content": "FootyTweets",
+			"interval": 60,
+			"timeout": 5
+		}
+	],
+	"email": {
+		"sender": "awesome@node-site-monitor.com",
+		"service": "Gmail",
+		"username": "ollie@ollieparsley.com",
+		"password": "Wallaby01"
+	}
+}
