@@ -8,7 +8,9 @@ Well, we wanted a free distributed system for monitoring our websites. We can ea
 The different alert types are free and therefore the entire end-to-end check doesn't cost a thing.
 
 ##Check types
+
 The different ways that are checked to see the status of a site
+
 *   Check if host is reachable
 *   Check HTTP status code
 *   Check for connect timeouts
@@ -16,7 +18,9 @@ The different ways that are checked to see the status of a site
 
 
 ##Alert types
+
 The different ways of sending alerts to users. Users can have multiple methods, each with different "availability windows"
+
 *   E-mail:
       *   GMail is the only service available at the moment
       *   Other providers/SMTP setup coming soon
@@ -27,7 +31,9 @@ The different ways of sending alerts to users. Users can have multiple methods, 
 
 
 ##Storage types
+
 The different ways to store the site check data and what
+
 *   stdout (console.log)
 *   (future) file
 *   (future) MySQL
