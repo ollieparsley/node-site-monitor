@@ -2,6 +2,10 @@
 
 A simple node server that will check the status of any number of websites and alert any number of users in different ways.
 
+##Why do this??
+
+Well, we wanted a free distributed system for monitoring our websites. We can easily do that with various free node hosting solutions.
+The different alert types are free and therefore the entire end-to-end check doesn't cost a thing.
 
 ##Check types
 The different ways that are checked to see the status of a site
