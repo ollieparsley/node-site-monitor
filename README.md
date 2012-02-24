@@ -9,30 +9,30 @@ The different alert types are free and therefore the entire end-to-end check doe
 
 ##Check types
 The different ways that are checked to see the status of a site
-* Check if host is reachable
-* Check HTTP status code
-* Check for connect timeouts
-* Check to see if text on the page matches what is expected
+*   Check if host is reachable
+*   Check HTTP status code
+*   Check for connect timeouts
+*   Check to see if text on the page matches what is expected
 
 
 ##Alert types
 The different ways of sending alerts to users. Users can have multiple methods, each with different "availability windows"
-* E-mail:
-    * GMail is the only service available at the moment
-    * Other providers/SMTP setup coming soon
-* (future) Twitter DM (free SMS!)
-* (future) Twitter mention
-* (custom) Custom POST request
-* Make your own... just extend the base communication class lib/communication/base.js
+*   E-mail:
+      *   GMail is the only service available at the moment
+      *   Other providers/SMTP setup coming soon
+*   (future) Twitter DM (free SMS!)
+*   (future) Twitter mention
+*   (custom) Custom POST request
+*   Make your own... just extend the base communication class lib/communication/base.js
 
 
 ##Storage types
 The different ways to store the site check data and what
-* stdout (console.log)
-* (future) file
-* (future) MySQL
-* (future) MongoDB
-* Make your own... just extend the base communication class lib/storage/base.js
+*   stdout (console.log)
+*   (future) file
+*   (future) MySQL
+*   (future) MongoDB
+*   Make your own... just extend the base communication class lib/storage/base.js
 
 
 ##Setup
