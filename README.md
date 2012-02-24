@@ -2,12 +2,14 @@
 
 A simple node server that will check the status of any number of websites and alert any number of users in different ways.
 
+
 ##Check types
 
 * Check if host is reachable
 * Check HTTP status code
 * Check for connect timeouts
 * Check to see if text on the page matches what is expected
+
 
 ##Communication types
 
@@ -16,4 +18,13 @@ A simple node server that will check the status of any number of websites and al
     * Other providers/SMTP setup coming soon
 * (future) Twitter DM (free SMS!)
 * (future) Twitter mention
+* Make your own...
+
+
+##Storage types
+
+* stdout (console.log)
+* (future) file
+* (future) MySQL
+* (future) MongoDB
 * Make your own...
