@@ -13,3 +13,7 @@ A simple node server that will check the status of any number of websites and al
 
 * E-mail:
     * GMail is the only service available at the moment
+    * Other providers/SMTP setup coming soon
+* (future) Twitter DM (free SMS!)
+* (future) Twitter mention
+* Make your own...
