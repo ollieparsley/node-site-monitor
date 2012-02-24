@@ -33,7 +33,7 @@
 	"email": {
 		"sender": "awesome@node-site-monitor.com",
 		"service": "Gmail",
-		"username": "ollie@ollieparsley.com",
-		"password": "Wallaby01"
+		"username": "some@gmail.com",
+		"password": "password1234"
 	}
 }
