@@ -26,7 +26,7 @@ The different ways of sending alerts to users. Users can have multiple methods, 
       *   Other providers/SMTP setup coming soon
 *   (future) Twitter DM (free SMS!)
 *   (future) Twitter mention
-*   (custom) Custom POST request
+*   (future) Custom POST request
 *   Make your own... just extend the base communication class lib/communication/base.js
 
 
