@@ -4,27 +4,34 @@ A simple node server that will check the status of any number of websites and al
 
 
 ##Check types
-
+The different ways that are checked to see the status of a site
 * Check if host is reachable
 * Check HTTP status code
 * Check for connect timeouts
 * Check to see if text on the page matches what is expected
 
 
-##Communication types
-
+##Alert types
+The different ways of sending alerts to users. Users can have multiple methods, each with different "availability windows"
 * E-mail:
     * GMail is the only service available at the moment
     * Other providers/SMTP setup coming soon
 * (future) Twitter DM (free SMS!)
 * (future) Twitter mention
-* Make your own...
+* (custom) Custom POST request
+* Make your own... just extend the base communication class lib/communication/base.js
 
 
 ##Storage types
-
+The different ways to store the site check data and what
 * stdout (console.log)
 * (future) file
 * (future) MySQL
 * (future) MongoDB
-* Make your own...
+* Make your own... just extend the base communication class lib/storage/base.js
+
+
+##Setup
+This is all done in a simple config file. As long as you match the format in the config.json example it will work fine.
+
+The arrays in the config don't have any soft limits, so the only limits will be in node or hardware. Let us know if you have any issues.
