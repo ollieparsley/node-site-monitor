@@ -11,7 +11,7 @@ var config = JSON.parse(fs.readFileSync('./config.json','utf8'));
 var sites = [];
 
 //Storage
-var storage = new storages.Base(config);
+var storage = new (storages.findByType(config.storage.type));
 
 //Add each site in the config into the array
 config.sites.forEach(function(siteConfig){
