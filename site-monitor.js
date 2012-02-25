@@ -47,24 +47,40 @@ var runChecks = function(){
 					
 				}
 				
+				//Only carry on if the stats of the site has changed
 				if (up_down !== false) {
-					//Site was up and is now down
-					config.users.forEach(function(user){
-						user.contact_methods.forEach(function(communicationMethod){
-							//Send
-							var commsClass = communications.findByType(communicationMethod.type);
-							var comms = new commsClass({username:user.username}, communicationMethod, config);
-							if (comms.isAllowed()) {
-								comms.send(up_down, site, stats, function(success, error){
-									if (success) {
-										storage.logCommunicationSuccess(site, comms);
-									} else {
-										storage.logCommunicationFailed(site, comms, error);
-									}
+					
+					//Check one more time after a half second delay
+					setTimeout(function(){
+						site.check(function(stats){
+							//Stats is the same as previous check
+							if (site.isDown() === site.wasDown()) {
+								//Send alerts to available users
+								config.users.forEach(function(user){
+									user.contact_methods.forEach(function(communicationMethod){
+										//Send
+										var commsClass = communications.findByType(communicationMethod.type);
+										var comms = new commsClass({username:user.username}, communicationMethod, config);
+										if (comms.isAllowed()) {
+											comms.send(up_down, site, stats, function(success, error){
+												if (success) {
+													storage.logCommunicationSuccess(site, comms);
+												} else {
+													storage.logCommunicationFailure(site, comms, error);
+												}
+											});
+										}
+									});
 								});
+								
+							} else {
+								//Log the false alarm!
+								storage.logFalseAlarm(site);
 							}
-						});
-					});
+
+						}.bind(this));
+						
+					}.bind(this), 500);
 				}
 			});	
 		}

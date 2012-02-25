@@ -9,12 +9,6 @@
 			"contact_methods":[
 				{
 					"type":"email",
-					"allow_times": [
-						{
-							"start": "00:00",
-							"end": "23:59"
-						}
-					],
 					"address": "myemail@somecompany.com"	
 				}
 			]
