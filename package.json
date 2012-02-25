@@ -1,0 +1,19 @@
+{
+	"name": "node-site-monitor",
+	"version": "0.1.0",
+	"description": "Website monitor",
+	"main": "site-monitor.js",
+	"keywords": [
+		"website",
+		"monitor",
+		"uptime",
+		"pingdom"
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://ollieparsley@github.com/hootware/node-site-json.git"
+	},
+	"dependencies": {
+		"nodemailer": "x.x.x"
+	}
+}
