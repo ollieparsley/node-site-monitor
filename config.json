@@ -17,16 +17,40 @@
 		{
 			"type": "http",
 			"name": "OllieParsley.com",
-			"url": "http://ollieparsley.com/dsadsa?dsadsa",
+			"url": "http://ollieparsley.com",
 			"content": "Ollie Parsley",
+			"interval": 60,
+			"timeout": 5
+		},
+		{
+			"type": "http",
+			"name": "Hootware",
+			"url": "http://hootware.com",
+			"content": "Hootware develop Twitter based web applications",
+			"interval": 60,
+			"timeout": 5
+		},
+		{
+			"type": "http",
+			"name": "FootyTweets",
+			"url": "http://footytweets.com",
+			"content": "FootyTweets will allow you to get all your footy team news and updates",
+			"interval": 60,
+			"timeout": 5
+		},
+		{
+			"type": "http",
+			"name": "MotorTweets",
+			"url": "http://motortweets.com",
+			"content": "MotorTweets allows you to get all your team/drivers news and race information directly in your twitter feed",
 			"interval": 60,
 			"timeout": 5
 		}
 	],
 	"email": {
-		"sender": "awesome@node-site-monitor.com",
+		"sender": "site-alert@hootware.com",
 		"service": "Gmail",
-		"username": "some@gmail.com",
-		"password": "password1234"
+		"username": "ollie@hootware.com",
+		"password": "wallaby"
 	}
 }
