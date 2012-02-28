@@ -62,3 +62,5 @@ The different ways to store the site check data and what
 This is all done in a simple config file. As long as you match the format in the config.json example it will work fine.
 The arrays in the config don't have any soft limits, so the only limits will be in node or hardware. Let us know if you have any issues.
 If you want to change the config, you need to restart the application.
+
+Copy the `sample-config.json` and rename to `config.json` then start the application.
