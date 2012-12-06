@@ -18,5 +18,8 @@
 	},
 	"dependencies": {
 		"nodemailer": "x.x.x"
+	},
+	"devDependencies": {
+		"mocha": "*"
 	}
 }
