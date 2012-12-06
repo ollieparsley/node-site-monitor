@@ -22,7 +22,7 @@ You need to download the code and also install the nodemailer library as this is
 
 Easy peasy! It will load the config when started and will just keep running. If you want to change the config, you need to restart the application.
 
-    node site-monitor.js
+    require('site-monitor')(opts) //see sample-config.json for options.
 
 ##Check types
 
