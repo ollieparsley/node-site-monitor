@@ -7,7 +7,15 @@ A simple node server that will check the status of any number of websites and al
 Well, we wanted a free distributed system for monitoring our websites. We can easily do that with various free node hosting solutions.
 The different alert types are free and therefore the entire end-to-end check doesn't cost a thing.
 
-##Install/Usage
+##Install
+
+    npm install site-monitor
+
+OR
+
+    git clone git://github.com/hootware/node-site-monitor.git
+
+##Usage
 
 ###Command line
 
