@@ -7,22 +7,20 @@ A simple node server that will check the status of any number of websites and al
 Well, we wanted a free distributed system for monitoring our websites. We can easily do that with various free node hosting solutions.
 The different alert types are free and therefore the entire end-to-end check doesn't cost a thing.
 
-##Install
+##Install/Usage
 
-###NPM
+###Command line
 
-    npm install site-monitor
-    
-###Manual
+This will use the config.json file
 
-You need to download the code and also install the nodemailer library as this is used for e-mail alerts
+    node site-monitor
 
+###Code
 
-##Usage
+You can optionally give all the options in the monitor method, or it will use the default config.json
 
-Easy peasy! It will load the config when started and will just keep running. If you want to change the config, you need to restart the application.
-
-    require('site-monitor')(opts) //see sample-config.json for options.
+    var monitor = require('site-monitor');
+    monitor(opts) //see sample-config.json for options.
 
 ##Check types
 
