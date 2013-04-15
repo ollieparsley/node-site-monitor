@@ -11,7 +11,18 @@ The different alert types are free and therefore the entire end-to-end check doe
 
 ###NPM
 
-    npm install site-monitor
+####Command line
+
+This will use the config.json file
+
+    node site-monitor
+
+####Code
+
+You can optionally give all the options in the monitor method, or it will use the default config.json
+
+    var monitor = require('site-monitor');
+    monitor(opts) //see sample-config.json for options.
     
 ###Manual
 
