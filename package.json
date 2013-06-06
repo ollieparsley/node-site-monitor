@@ -17,7 +17,8 @@
 		"url": "https://git@github.com/hootware/node-site-json.git"
 	},
 	"dependencies": {
-		"nodemailer": "x.x.x"
+		"nodemailer": "x.x.x",
+		"mqtt": "*"
 	},
 	"devDependencies": {
 		"mocha": "*"
