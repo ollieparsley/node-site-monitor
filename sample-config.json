@@ -9,6 +9,10 @@
 				{
 					"type":"email",
 					"address": "site_alerts@hootware.com"	
+				},
+				{
+					"type":"mqtt"
+					"topic": "site-monitor"
 				}
 			]
 		}
@@ -28,5 +32,18 @@
 		"service": "Gmail",
 		"username": "some@gmail.com",
 		"password": "password1234"
+	},
+	"mqtt": {
+                "brokers": [
+                        {
+                                "host":           "127.0.0.1",
+                                "port":           1883,
+                                "secure":         false,
+                                "clientIdPrefix": "prefix_",
+                                "username":       "my_username",
+                                "password":       "my_password"
+                        }
+		]
 	}
+	
 }
