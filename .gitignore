@@ -1,3 +1,4 @@
 /node_modules/
 .nodester.appconfig
 /config.json
+/monitor.log

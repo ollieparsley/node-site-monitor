@@ -47,6 +47,9 @@ The different ways of sending alerts to users. Users can have multiple methods, 
 *   E-mail:
       *   GMail is the only service available at the moment
       *   Other providers/SMTP setup coming soon
+*   MQTT - MQ Telemetry Transport
+      * Supply an array of brokers to connect to
+      * Supply a different topic for each user
 *   (future) Twitter DM (free SMS!)
 *   (future) Twitter mention
 *   (future) Custom POST request
