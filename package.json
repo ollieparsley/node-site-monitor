@@ -1,6 +1,6 @@
 {
 	"name": "site-monitor",
-	"version": "0.2.0",
+	"version": "0.2.1",
 	"description": "Website monitor",
 	"main": "site-monitor.js",
 	"scripts": {
