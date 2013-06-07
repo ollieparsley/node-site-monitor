@@ -14,7 +14,7 @@
 	],
 	"repository": {
 		"type": "git",
-		"url": "https://git@github.com/hootware/node-site-json.git"
+		"url": "https://git@github.com/hootware/node-site-monitor.git"
 	},
 	"dependencies": {
 		"nodemailer": "x.x.x",
