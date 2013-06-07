@@ -1,5 +1,5 @@
 {
-	"name": "node-site-monitor",
+	"name": "site-monitor",
 	"version": "0.2.0",
 	"description": "Website monitor",
 	"main": "site-monitor.js",
