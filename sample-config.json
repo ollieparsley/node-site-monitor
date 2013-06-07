@@ -11,7 +11,7 @@
 					"address": "site_alerts@hootware.com"	
 				},
 				{
-					"type":"mqtt"
+					"type":"mqtt",
 					"topic": "site-monitor"
 				}
 			]
