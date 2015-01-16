@@ -1,3 +1,6 @@
+#--- Currently not being maintained ---
+
+
 #Node Site Monitor
 
 A simple node server that will check the status of any number of websites and alert any number of users in different ways.
