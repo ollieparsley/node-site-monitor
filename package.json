@@ -1,6 +1,6 @@
 {
 	"name": "site-monitor",
-	"version": "0.2.0",
+	"version": "0.3.0",
 	"description": "Website monitor",
 	"main": "site-monitor.js",
 	"scripts": {
@@ -14,10 +14,10 @@
 	],
 	"repository": {
 		"type": "git",
-		"url": "https://git@github.com/hootware/node-site-monitor.git"
+		"url": "https://git@github.com/ollieparsley/node-site-monitor.git"
 	},
 	"dependencies": {
-		"nodemailer": "x.x.x",
+		"nodemailer": "*",
 		"mqtt": "*"
 	},
 	"devDependencies": {
