@@ -17,10 +17,10 @@
 		"url": "https://git@github.com/ollieparsley/node-site-monitor.git"
 	},
 	"dependencies": {
-		"nodemailer": "*",
-		"mqtt": "*"
+		"mqtt": "0.3.*",
+		"nodemailer": "6.4.*"
 	},
 	"devDependencies": {
-		"mocha": "*"
+		"mocha": "8.2.*"
 	}
 }
